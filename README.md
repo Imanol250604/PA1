@@ -9,8 +9,8 @@
 
 | Integrante | Rol | Aporte principal |
 |---|---|---|
-| Roy Granados Aguilar | Desarrollo de la Actividad 1 y 2 | Desarrolló toda la actividad sobre el vector: representación, máximo y mínimo, inserción, ordenamiento y costo aproximado. |
-| Imanol Ponce de León | Desarrollo de la Actividad 3 y 4 | Desarrolló los apartados 3.1 y 3.2: representación de la matriz y total de estudiantes por aula. |
+| Roy Granados Aguilar | Desarrollo de la Actividad 1 y 2 | 
+| Imanol Ponce de León | Desarrollo de la Actividad 3 y 4 |
 
 ## 2. Descripción y objetivo
 
