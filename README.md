@@ -19,32 +19,19 @@ etapa del sistema se trabajará únicamente con estructuras lineales estáticas.
 una solución para registrar cantidades de inscritos, ordenar resultados, realizar consultas puntuales y
 representar la distribución de estudiantes por aulas y horarios.
 
-### Actividad 1 – Conceptos fundamentales
+### Actividad 1 – Análisis del problema y selección de estructura
 
-#### 1.1 Diferencia entre estructura estática y dinámica
+#### 1.1 Expliquen la diferencia entre estructura estática y estructura dinámica
 
-Una **estructura estática** tiene un tamaño definido que no cambia durante la ejecución del programa. En cambio, una **estructura dinámica** puede modificar su tamaño según las necesidades del programa.
+La principal característica es que una estructura estática tiene un tamaño fijo que no puede cambiar durante la ejecución del programa, mientras que un dinámica se asigna automáticamente en tiempo de ejecución.
 
-#### 1.2 ¿Por qué utilizar arreglos y matrices?
+#### 1.2 Indiquen por qué, para esta primera etapa, resulta adecuado trabajar con arreglos y matrices
 
-Para esta primera etapa es adecuado utilizar arreglos y matrices porque conocemos previamente la cantidad de datos que vamos a manejar.
+Por la propiedad de estar ordenados, cada elemento puede identificarse mediante una posición o índice.
 
-El **vector** permite almacenar de forma ordenada la cantidad de inscritos de cada taller y acceder a cada valor mediante su índice.
+#### 1.3 Relacionen los conceptos de dato, algoritmo y estructura de datos dentro de la solución que propone el equipo.
 
-La **matriz** permite organizar la cantidad de estudiantes utilizando filas para representar las aulas y columnas para representar los horarios.
-
-Los vectores almacenan datos homogéneos de manera ordenada y permiten acceder a ellos mediante índices, de acuerdo con lo trabajado en clase.
-
-#### 1.3 Relación entre dato, algoritmo y estructura de datos
-
-Los **datos** son los valores que necesitamos procesar, como la cantidad de inscritos de un taller.
-
-La **estructura de datos** permite organizar estos valores mediante vectores y matrices.
-
-Finalmente, los **algoritmos** establecen los pasos necesarios para procesar los datos. Por ejemplo, recorrer un vector para encontrar la mayor o menor cantidad de inscritos.
-
-Un algoritmo es una secuencia ordenada de pasos que permite llegar a la solución de un problema.
-
+En este caso el dato sería la cantidad de inscritos. El algoritmo sería el proceso de registrar cantidades, ordenar resultados, realizar consultas y representar la distribución de estudiantes. Y la estructura de datos serían los arreglos estáticos.
 ---
 
 ### Actividad 2 – Arreglo unidimensional
