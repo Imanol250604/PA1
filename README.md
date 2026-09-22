@@ -3,19 +3,14 @@
 > **Curso:** ALGORITMO Y ESTRUCTURA DE DATOS BASADOS EN INTELIGENCIA ARTIFICIAL
 > **Código:**   4682
 > **Evaluación:** PA1  
-> **Equipo:** Grupo 7  
 
 ## 1. Integrantes
 
-El equipo está integrado por los siguientes cinco participantes, con los roles y aportes que se detallan a continuación.
 
 | Integrante | Rol | Aporte principal |
 |---|---|---|
-| Yasier Araceli Fernández Villavicencio | Desarrollo de la Actividad 2 | Desarrolló toda la actividad sobre el vector: representación, máximo y mínimo, inserción, ordenamiento y costo aproximado. |
-| Claudio Garcia Perez | Desarrollo de la Actividad 3 (primera parte) | Desarrolló los apartados 3.1 y 3.2: representación de la matriz y total de estudiantes por aula. |
-| Gustavo Aarón Cruz Mírez | Desarrollo de la Actividad 3 (segunda parte) | Desarrolló los apartados 3.3, 3.4 y 3.5: total por horario, celda con mayor ocupación y explicación del recorrido. |
-| Percy Daniel Perez Rojas | Desarrollo de la Actividad 4 | Desarrolló los conceptos y ejemplos de matriz cuadrada y matriz dispersa. |
-| Joseph Gianmarco Soberon Leon | Desarrollo la actividad 1 y la Documentación | Organizó el documento del trabajo. |
+| Roy Granados Aguilar | Desarrollo de la Actividad 1 y 2 | Desarrolló toda la actividad sobre el vector: representación, máximo y mínimo, inserción, ordenamiento y costo aproximado. |
+| Imanol Ponce de León | Desarrollo de la Actividad 3 y 4 | Desarrolló los apartados 3.1 y 3.2: representación de la matriz y total de estudiantes por aula. |
 
 ## 2. Descripción y objetivo
 
