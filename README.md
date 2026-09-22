@@ -12,19 +12,12 @@
 | Roy Granados Aguilar | Desarrollo de la Actividad 1 y 2 | 
 | Imanol Ponce de León | Desarrollo de la Actividad 3 y 4 |
 
-## 2. Descripción y objetivo
+## 2. Caso de trabajo
 
-**Problema:**  
-Organizar la cantidad de inscritos en ocho talleres y la ocupación de cuatro aulas en cinco bloques horarios, para consultar valores extremos, insertar datos, ordenar registros y obtener totales.
-
-**Objetivo:**  
-Aplicar vectores, matrices, recorridos y ordenamiento para resolver un caso académico, explicando los algoritmos mediante representaciones gráficas, pseudocódigo y fragmentos Java.
-
-**Solución desarrollada:**  
-Se documentaron cuatro actividades: conceptos fundamentales; operaciones sobre un vector de inscritos; análisis de una matriz de ocupación de 4 × 5; y ejemplos de matrices cuadradas y dispersas. El desarrollo siguiente recupera lo trabajado en el chat «Resolver tarea paso a paso».
-
-**Convenciones:**  
-Todos los índices comienzan en cero. La matriz de ocupación contiene datos de ejemplo utilizados en el chat. Los fragmentos Java ilustran los algoritmos; todavía no constituyen un programa completo ejecutable.
+Una coordinación académica necesita organizar información de talleres estudiantiles. En esta primera
+etapa del sistema se trabajará únicamente con estructuras lineales estáticas. El equipo debe proponer
+una solución para registrar cantidades de inscritos, ordenar resultados, realizar consultas puntuales y
+representar la distribución de estudiantes por aulas y horarios.
 
 ### Actividad 1 – Conceptos fundamentales
 
