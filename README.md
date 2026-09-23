@@ -68,30 +68,30 @@ Cada elemento del vector se identifica mediante su posición o índice.
 
 El algoritmo comienza tomando el primer elemento como valor máximo y mínimo. Después recorre los demás elementos y realiza las comparaciones correspondientes.
 
-##### Pseudocódigo
+##### Código Java
 
 ```text
-INICIO
-    inscritos ← [28, 15, 34, 21, 19, 40, 12, 26]
+public static  void Buscar(){
+        int[] Inscritos = {28, 15, 34, 21, 19, 40, 12, 26};
 
-    mayor ← inscritos[0]
-    menor ← inscritos[0]
+        int mayor = Inscritos[0];
+        for(int i = 0; i < Inscritos.length; i++){
+            if(Inscritos[i] > mayor)
+            {
+                mayor = Inscritos[i];
+            }
+        }
+        System.out.println(mayor);
 
-    PARA i ← 1 HASTA longitud(inscritos) - 1 HACER
-
-        SI inscritos[i] > mayor ENTONCES
-            mayor ← inscritos[i]
-        FIN SI
-
-        SI inscritos[i] < menor ENTONCES
-            menor ← inscritos[i]
-        FIN SI
-
-    FIN PARA
-
-    MOSTRAR "Mayor:", mayor
-    MOSTRAR "Menor:", menor
-FIN
+        int menor = Inscritos[0];
+        for (int i = 0; i < Inscritos.length; i++){
+            if ( Inscritos[i] < menor)
+            {
+                menor = Inscritos[i];
+            }
+        }
+        System.out.println(menor);
+    }
 ```
 
 **Resultado:**
@@ -99,24 +99,6 @@ FIN
 ```text
 Mayor = 40
 Menor = 12
-```
-
-##### Código Java
-
-```java
-int mayor = inscritos[0];
-int menor = inscritos[0];
-
-for (int i = 1; i < inscritos.length; i++) {
-
-    if (inscritos[i] > mayor) {
-        mayor = inscritos[i];
-    }
-
-    if (inscritos[i] < menor) {
-        menor = inscritos[i];
-    }
-}
 ```
 
 #### 2.3 Insertar un nuevo valor
