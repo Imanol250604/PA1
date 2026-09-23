@@ -32,23 +32,34 @@ Por la propiedad de estar ordenados, cada elemento puede identificarse mediante 
 #### 1.3 Relacionen los conceptos de dato, algoritmo y estructura de datos dentro de la solución que propone el equipo.
 
 En este caso el dato sería la cantidad de inscritos. El algoritmo sería el proceso de registrar cantidades, ordenar resultados, realizar consultas y representar la distribución de estudiantes. Y la estructura de datos serían los arreglos estáticos.
+
 ---
 
-### Actividad 2 – Arreglo unidimensional
-
-La cantidad de inscritos en los talleres está representada por el siguiente vector:
-
-```text
-[28, 15, 34, 21, 19, 40, 12, 26]
-```
+### Actividad 2 – Modelado y operaciones con vectores
 
 #### 2.1 Representación gráfica
 
 ```text
-Índice:  0   1   2   3   4   5   6   7
-        ┌───┬───┬───┬───┬───┬───┬───┬───┐
-Valor:  │28 │15 │34 │21 │19 │40 │12 │26 │
-        └───┴───┴───┴───┴───┴───┴───┴───┘
+public class Pa1Representar {
+
+    public static void main(String[] args){
+        System.out.println();
+        Representar();
+    }
+
+    public static  void Representar(){
+        System.out.println("Representar numero de inscritos");
+
+        int[] Inscritos = {28, 15, 34, 21, 19, 40, 12, 26};
+
+        System.out.println("Inscritos: " + Arrays.toString(Inscritos));
+        System.out.println("Numero de talleres: " + Inscritos.length);
+
+        for (int i=0; i< Inscritos.length; i++){
+            System.out.println("Indice " + i + "->" + Inscritos[i]);
+        }
+    }
+}
 ```
 
 Cada elemento del vector se identifica mediante su posición o índice.
